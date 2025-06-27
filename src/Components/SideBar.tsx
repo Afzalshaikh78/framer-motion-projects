@@ -54,7 +54,7 @@ const Sidebar = () => {
         initial="closed"
         animate={isOpen ? "open" : "closed"}
         variants={sidebarVariants}
-        transition={{ type: "spring", stiffness: 300, damping: 30 }}
+        transition={{ type: "spring", stiffness: 200, damping: 30 }}
       >
         <div className="p-4">
           <button
