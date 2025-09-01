@@ -87,7 +87,7 @@ const Carousel = () => {
           >
             &#10094;
           </button>
-          <button
+          {/* <button
             onClick={nextSlide}
             className={`absolute right-4 transform 
             -translate-y-1/2 p-2 shadow transition-opacity duration-300 ${
@@ -95,7 +95,7 @@ const Carousel = () => {
             }`}
           >
             &#10095;
-          </button>
+          </button> */}
         </div>
       </div>
     </>
