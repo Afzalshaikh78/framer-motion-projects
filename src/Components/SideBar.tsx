@@ -174,11 +174,11 @@ const Sidebar = () => {
         className="absolute top-4 left-4 z-10 p-2 bg-gray-800
          text-white rounded-full focus:outline-none"
       >
-        {/* {isOpen ? (
+        {isOpen ? (
           <IoMdArrowBack className="h-6 w-6" />
         ) : (
           <IoMdArrowForward className="h-6 w-6" />
-        )} */}
+        )}
       </button>
     </div>
   );
